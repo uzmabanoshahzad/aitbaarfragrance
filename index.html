@@ -3,49 +3,130 @@
 <head>
   <title>Aitbaar Fragrance</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('images/b74be3f7-1550-46a9-a5a8-d9dddf361d4c.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    header {
+      background: rgba(0,0,0,0.8);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: rgba(0,0,0,0.5);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 50px 0;
+    }
+
+    .card {
+      background: rgba(0,0,0,0.7);
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 300px;
+      flex: 1 1 300px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .whatsapp {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    a.whatsapp:hover {
+      background: #1ebe5d;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-  <img src="images/logo.png" alt="Aitbaar Fragrance Logo">
+  <img src="images/4b4a8e89-4dd7-4e2c-ae16-1c9fa61933d6.jpg" alt="Aitbaar Fragrance Logo">
   <nav>
-    <a href="index.html">Home</a>
+    <a href="#home">Home</a>
     <a href="#products">Perfumes</a>
   </nav>
 </header>
 
-<section class="hero">
-  <h1>Aitbaar Fragrance</h1>
+<section class="hero" id="home">
+  <h1>Welcome to Aitbaar Fragrance</h1>
   <p>Luxury fragrances you can trust</p>
 </section>
 
 <section class="products" id="products">
 
+  <!-- Hogo Boss -->
   <div class="card">
-    <img src="images/hogo.jpg" alt="Hogo Boss">
+    <img src="images/746513c1-a07c-4a22-a053-6a48bcfb0f6f.jpg" alt="Hogo Boss Perfume">
     <h3>Hogo Boss</h3>
-    <p>Bold & long-lasting fragrance</p>
-    <a href="hogo.html">View Details</a>
+    <p>Premium long-lasting perfume, perfect for daily and formal wear.<br>💰 PKR 3,500</p>
+    <a class="whatsapp" href="https://wa.me/923713077512?text=Hello,%20I%20want%20to%20order%20Hogo%20Boss%20-%20PKR%203500">Order on WhatsApp</a>
   </div>
 
+  <!-- Zarar -->
   <div class="card">
-    <img src="images/zarar.jpg" alt="Zarar">
+    <img src="images/810402a9-99a5-4426-be61-091643fe07ec.jpg" alt="Zarar Perfume">
     <h3>Zarar</h3>
-    <p>Strong masculine scent</p>
-    <a href="zarar.html">View Details</a>
+    <p>Strong masculine scent, bold and confident.<br>💰 PKR 3,500</p>
+    <a class="whatsapp" href="https://wa.me/923713077512?text=Hello,%20I%20want%20to%20order%20Zarar%20-%20PKR%203500">Order on WhatsApp</a>
   </div>
 
+  <!-- Gucci Flora -->
   <div class="card">
-    <img src="images/gucci.jpg" alt="Gucci Flora">
+    <img src="images/953e925c-559f-4174-83c3-ffd07cf025c8.jpg" alt="Gucci Flora Perfume">
     <h3>Gucci Flora</h3>
-    <p>Soft & elegant floral notes</p>
-    <a href="gucci.html">View Details</a>
+    <p>Soft and elegant floral notes, perfect for any occasion.<br>💰 PKR 4,000</p>
+    <a class="whatsapp" href="https://wa.me/923713077512?text=Hello,%20I%20want%20to%20order%20Gucci%20Flora%20-%20PKR%204000">Order on WhatsApp</a>
   </div>
 
 </section>
-
-<!-- WhatsApp Button -->
-<a class="whatsapp" href="https://wa.me/923713077512">WhatsApp</a>
 
 </body>
 </html>
